@@ -56,6 +56,7 @@ def prec(c):
     # 根据需要添加更多操作员
     return sys.maxsize  # 用于左括号 '('
 
+
 # 用于检查给定令牌是否为操作数
 def isoperand(c):
     return ('a' <= c <= 'z') or ('A' <= c <= 'Z') or ('0' <= c <= '9')

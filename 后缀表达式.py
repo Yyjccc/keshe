@@ -3,6 +3,7 @@ def eval_postfix(expr):
     stack = []
     # split the expression by whitespace
     tokens = expr.split()
+
     # iterate over each token
     for token in tokens:
         # if token is a number
