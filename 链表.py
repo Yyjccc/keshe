@@ -4,6 +4,7 @@ class NodeList:
         self.val = val
         self.next = None
 
+
 def create_list(n):
     head = NodeList(1)
     curr = head
