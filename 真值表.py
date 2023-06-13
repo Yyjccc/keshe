@@ -40,8 +40,7 @@ if __name__ == "__main__":
         elif str[i] == '|' or str[i] == '^' or str[i] == '!' or str[i] == '(' or str[i] == ')':
             print(str[i], end="")
             if i + 1<len(str):
-                print(" ", end=""
-
+                print(" ", end="")
     print()
     for i in sorted(a):
         print(i,end=' ')
