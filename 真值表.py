@@ -1,6 +1,4 @@
 import math
-MAXSIZE = 101
-
 #定义打印真值表的函数
 def calling(s, j):
 
