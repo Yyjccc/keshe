@@ -6,6 +6,7 @@ def com(str1, str2):
     if len(str1) < len(str2):
         str1, str2 = str2, str1
         temp = '-'
+
     if len(str1) > len(str2):
         temp = '-'
     # 避免短字符串索引越界
