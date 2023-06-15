@@ -122,6 +122,7 @@ void cal(int sum,int j,char b[],char alg[])
         }
         case 0:
         {
+
             optr.pop();
             break;
         }
